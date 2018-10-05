@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div style={{height: '100vh', overflow: 'auto', position: 'relative'}}>
-        <Layout style={{background: 'url(https://bit.ly/2P9Vm0I) center / cover'}}>
+        <Layout style={{background: 'url(https://bit.ly/2Rr98NY) center / cover'}}>
             <Header className="header-color" transparent title="Title" style={{color: 'white'}}>
                 <Navigation>
                     <Link to="/resume">Resume</Link>

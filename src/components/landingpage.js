@@ -19,18 +19,17 @@ class LandingPage extends Component {
 							<p>TEST | TEST | TEST | TEST | TEST | TEST | TEST | TEST </p>
 							<div className = "social-links">
 								{/* LinkedIn */}
-								<a href="https://www.google.com/" target = "_blank" rel="noopener noreferrer">
+								<a href="https://www.riteshd.com/" target = "_blank" rel="noopener noreferrer">
 									<i className="fa fa-linkedin-square" aria-hidden="true"></i>
 								</a>
 								{/* GitHub */}
-								<a href="https://www.google.com/" target = "_blank" rel="noopener noreferrer">
+								<a href="https://www.googfdle.com/" target = "_blank" rel="noopener noreferrer">
 									<i className="fa fa-github-square" aria-hidden="true"></i>
 								</a>
 								{/* Twitter */}
 								<a href="https://www.google.com/" target = "_blank" rel="noopener noreferrer">
 									<i className="fa fa-twitter-square" aria-hidden="true"></i>
 								</a>
-
 							</div>
 						</div>
 					</Grid>
