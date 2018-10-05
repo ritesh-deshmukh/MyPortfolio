@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div style={{height: '100vh', overflow: 'auto', position: 'relative'}}>
         <Layout style={{background: 'url(https://bit.ly/2P9Vm0I) center / cover'}}>
-            <Header transparent title="Title" style={{color: 'white'}}>
+            <Header className="header-color" transparent title="Title" style={{color: 'white'}}>
                 <Navigation>
                     <Link to="/resume">Resume</Link>
                     <Link to="/aboutme">About Me</Link>
