@@ -10,3 +10,5 @@ npm install --save react-mdl - https://www.npmjs.com/package/react-mdl
 
 npm install --save react-router-dom - https://www.npmjs.com/package/react-router-dom
 
+npm install react react-dom - https://www.npmjs.com/package/react-dom
+
