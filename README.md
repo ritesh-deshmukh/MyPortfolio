@@ -12,3 +12,10 @@ npm install --save react-router-dom - https://www.npmjs.com/package/react-router
 
 npm install react react-dom - https://www.npmjs.com/package/react-dom
 
+Download/clone Repo, run "npm install"
+
+once all the dependencies are installed, run "npm start"
+
+visit "http://localhost:3000/" in your preferred browser
+
+
