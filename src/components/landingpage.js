@@ -14,9 +14,10 @@ class LandingPage extends Component {
 								 />							
 						</Cell>
 						<div className = "banner-text">
-							<h1>Banner Test</h1>
+							<h1>Ritesh Deshmukh</h1>							
 							<hr/>
-							<p>TEST | TEST | TEST | TEST | TEST | TEST | TEST | TEST </p>
+							<h2>ES6 | ES5 | React | Node | Python | Flask | Django</h2>
+							<p>I like doodling with frameworks.</p>
 							<div className = "social-links">
 								{/* LinkedIn */}
 								<a href="https://www.riteshd.com/" target = "_blank" rel="noopener noreferrer">

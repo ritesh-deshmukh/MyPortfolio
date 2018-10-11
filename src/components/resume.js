@@ -3,12 +3,13 @@ import { Grid, Cell } from 'react-mdl'
 import Education from './education'
 import Experience from './experience'
 import Skills from './skills'
+import Certifications from './certifications'
 
 class Resume extends Component {
 	render(){
 		return(
-				<div>
-					<Grid>
+				<div style={{background: "light grey"}}>
+					<Grid >
 						<Cell col={4}>
 							<div style={{textAlign: "center"}}>
 								<img src="https://bit.ly/2BXnjVS" alt="avatar" style={{height: "200px"}}/>
@@ -17,48 +18,60 @@ class Resume extends Component {
 								Ritesh Deshmukh
 							</h2>
 							<h4 style={{color: "grey"}}>
-								Profession
+								Full Stack Developer
 							</h4>
-							<hr style={{orderTop: "3px solid #833FB2", width: "50%"}}/>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-								Nemo doloribus, saepe dolores nulla repellat repellendus facere consequuntur totam distinctio ratione.
+							<hr style={{orderTop: "3px solid #833FB2", width: "100%"}}/>
+							<p>Computer Science Masters Graduate from the University of Texas at Arlington. 
+									Minors: Database Systems and Computer Networks.
 							</p>
-							<hr style={{orderTop: "3px solid #833FB2", width: "50%"}}/>
+							<hr style={{orderTop: "3px solid #833FB2", width: "100%"}}/>
 							<h5>Address</h5>
-							<p>1 addressway address 12345</p>
+							<p>127.0.0.1</p>
+							<hr style={{orderTop: "3px solid #833FB2", width: "100%"}}/>
 							<h5>Email</h5>
-							<p>example@example.com</p>
+							<p>riteshsunildeshmukh@gmai.com</p>
+							<hr style={{orderTop: "3px solid #833FB2", width: "100%"}}/>
 							<h5>Phone</h5>
-							<p>(xxx)xxx-xxxx</p>
+							<p>+1(469)954-4171</p>
+							<hr style={{orderTop: "3px solid #833FB2", width: "100%"}}/>
 							<h5>Web</h5>
-							<p>MyWebsite.com</p>
-							<hr style={{orderTop: "3px solid #833FB2", width: "50%"}}/>
+				    		<a href="http://riteshd.com"
+				    			target = "_blank" rel="noopener noreferrer">riteshd.com</a>
+							<hr style={{orderTop: "3px solid #833FB2", width: "100%"}}/>
 						</Cell>
 						<Cell className="resume-right-col" col={8}>
-							<h2>Education</h2>
+							<h2 style={{lineHeight: "1px"}}>Education</h2>
 							<Education 
 								startYear={2011}
 								endYear={2015}
-								schoolName={"My University"}
-								schoolDescription={"Lorem ipsum dolor sit amet, consectetur adipisicing elit."}
+								schoolName={"University of Texas at Arlington"}
+								schoolDescription={"Master of Science in Computer Science"}
 								/>
 							<Education 
 								startYear={2016}
 								endYear={2018}
-								schoolName={"My University 2"}
-								schoolDescription={"Lorem ipsum dolor sit amet, consectetur adipisicing elit."}
+								schoolName={"University of Mumbai"}
+								schoolDescription={"Bachelor of Engineering in Computer Engineering"}
 								/>
 							<hr style={{borderTop: "3px solid #e22947"}} />
-							<h2>Experience</h2>
+							<h2 style={{lineHeight: "1px"}} >Experience</h2>
 							<Experience 
 								startYear={2015}
 								endYear={2016}
-								jobName={"Job Name"}
-								jobDescription={"Lorem ipsum dolor sit amet, consectetur adipisicing elit."}
+								jobName={"Web Developer - Snoop Technologies"}
+								jobDescription={"Designed websites for interactive platforms for E-learning and E-Commerce and enhanced UX by 30%"}
 								/>
 							<hr style={{borderTop: "3px solid #e22947"}} />
-							<h2>Skills</h2>
+							<h2 style={{lineHeight: "1px"}}>Skills</h2>
 							<Skills />
+							<hr style={{borderTop: "3px solid #e22947"}} />							
+							<h2 style={{lineHeight: "1px"}}>Certifications</h2>
+							<Certifications 
+								startYear={2018}
+								endYear={2021}
+								jobName={"Cisco Certified Entry Network Technician"}
+								jobDescription={"Routing Protocols, VLANs, ACL, Cisco IOS CLI, Routers, Switches manual config."}
+								/>
 						</Cell>
 					</Grid>
 				</div>

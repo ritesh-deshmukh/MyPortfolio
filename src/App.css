@@ -1,15 +1,15 @@
 .header-color {
-  background: #CB356B;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #BD3F32, #CB356B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #36d1dc;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #36d1dc, #5b86e5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #36d1dc, #CB356B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /*landing homepage*/
 .landing-grid {
-  background: #CB356B;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #BD3F32, #CB356B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #36d1dc;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #36d1dc, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #36d1dc, #CB356B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: fixed;
@@ -40,16 +40,47 @@
   color: white;
 }
 
-.banner-text hr {
+/*.banner-text hr {
   border-top: 5px dotted white;
   width: 50%;
   margin: auto;
+}*/
+
+.banner-text hr {
+  height: 30px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0.5px 0 0 0; 
+  border-radius: 20px;
 }
+/*
+.banner-text hr:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}*/
+
 
 .banner-text p {
   color: white;
+  font-style: italic;
+  font-size: 25px;
+  padding: 0.2em;
+}
+
+.banner-text h2 {
+  color: white;
   font-size: 20px;
-  padding: 1em;
+  padding: 0.2em;
+}
+
+.banner-text h2:hover {
+  transform: scale(1.5);
 }
 
 .social-links {
@@ -123,7 +154,13 @@
 
 /*resume*/
 .resume-right-col {
+  padding: 0px;
   background: #27221F;
   color: white;
-  padding: 2em;
+  padding: 0.8em;  
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  letter-spacing: 1px;
+  
 }
